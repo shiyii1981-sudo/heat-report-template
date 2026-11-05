@@ -1,0 +1,14 @@
+# 原始資料不上傳（只保留 data/README.md）
+data/*
+!data/README.md
+
+# Word、Excel 開檔時產生的暫存檔
+~$*
+
+# Windows 系統檔
+Thumbs.db
+desktop.ini
+
+# Python 產生的快取
+__pycache__/
+*.pyc
